@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditCatatanActivity">
+
+    <TextView
+        android:id="@+id/editCatatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Edit Catatan"
+        android:layout_marginBottom="25dp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:hint="Title"
+        android:id="@+id/editJudul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/editCatatan"
+        />
+
+    <EditText
+        android:hint="isi"
+        android:id="@+id/editIsi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="20dp"
+        android:layout_below="@+id/editJudul"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/tombolEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/editIsi"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>

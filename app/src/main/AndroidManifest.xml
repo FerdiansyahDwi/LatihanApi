@@ -16,6 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".EditCatatanActivity"
+            android:exported="false" />
+        <activity
             android:name=".CreateCatatanActivity"
             android:exported="false" />
         <activity
